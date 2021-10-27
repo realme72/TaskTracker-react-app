@@ -10,14 +10,14 @@ const App = () => {
   const [tasks, setTasks] = useState([ 
     {
     id: 1,
-    text: 'Doctors Appointment',
-    day: 'Feb 5th at 2:30pm',
+    text: 'Presentations at academic building',
+    day: 'Oct'21',
     reminder: true,
     },
     {
     id: 2,
-    text: 'Meeting at School',
-    day: 'Feb 6th at 1:30 pm',
+    text: 'confrence with friends',
+    day: 'friday',
     reminder: true,
     },
     {
@@ -26,6 +26,7 @@ const App = () => {
     day: 'Feb 5th at 2:30 pm',
     reminder : false,
     }
+    // removed trailing commas
 ])
 
 //Add Task
